@@ -1,4 +1,4 @@
-FROM cyberrebell/php-fpm-tideways:7.3.5
+FROM cyberrebell/php-fpm-tideways:7.4.2
 
 RUN set -xe \
     && apk add --no-cache --virtual .build-deps \
